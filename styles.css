@@ -16,3 +16,8 @@ li{
 li:nth-of-type(odd){ 
 	background-color:white;
 }
+li:first-of-type,li:last-of-type{font-size:22px;}
+
+li:nth-last-of-type(3){
+  background-color: pink;
+} 
